@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-## Accredify REST API
+# Accredify REST API
 <p>
 A REST API with Laravel where an authenticated user sends a JSON and receives a verification result as a JSON response.
 </p>
@@ -10,6 +10,9 @@ A REST API with Laravel where an authenticated user sends a JSON and receives a 
 | Name | Official email | Personal email |
 | :--: | :------------: | :------------: |
 | Muhammad Faez Bin Abdul Latiff | muhammadal.2021@scis.smu.edu.sg | faezlatiff0706@gmail.com |
+## Documentation
+Please take a look at <a href="https://polar-operation-cfc.notion.site/Accredify-API-Documentation-006c7a294daa4f4293b29d5cc0de4a2b">this link</a> for information on how to use the REST API. </br>
+If the above link does not work, try <a href="https://drive.google.com/file/d/17yn6JuWQStWsAEPZfrm-yReyGizj6Etv/view?usp=share_link">this link</a> instead. 
 
 ## Prerequisites
 * XAMPP (to run Apache and MySQL)
