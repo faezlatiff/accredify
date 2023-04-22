@@ -1,82 +1,46 @@
 <a id="readme-top"></a>
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-        <li><a href="#team-members">Team Members</a></li>
-      </ul>
-    </li>
-    <li><a href="#deployment">Deployment</a></li>
-    <li><a href='#installation'>Installation</a></li>
-  </ol>
-
-<br/>
-<br/>
 
 ## Accredify REST API
-<p align=center>
+<p>
 A REST API with Laravel where an authenticated user sends a JSON and receives a verification result as a JSON response.
 </p>
 
-### Contributor
-| Muhammad Faez Bin Abdul Latiff | muhammadal.2021@scis.smu.edu.sg  | faezlatiff0706@gmail.com|
+## About the Contributor
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<br/>
-<br/>
+| Name | Official email | Personal email |
+| :--: | :------------: | :------------: |
+| Muhammad Faez Bin Abdul Latiff | muhammadal.2021@scis.smu.edu.sg | faezlatiff0706@gmail.com |
 
 ## Prerequisites
-* [![My Skills](https://skillicons.dev/icons?i=laravel)](https://skillicons.dev)
-* <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/></a>
-* <a href="https://www.javascript.com/"><img width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/></a>
-* <a href="https://vuejs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="26px"></a>
-* <a href="https://getbootstrap.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="26px"></a>
-* <a href="https://threejs.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/threejs/threejs-original.svg" width="26px"></a>
-* <a href="https://firebase.google.com/?gclid=CjwKCAiA68ebBhB-EiwALVC-Nu9CUOHBl_f4ytQaPMxt6hrueI-AQV3jTr1F-8u7dtfenil2eMGkNhoCH2YQAvD_BwE&gclsrc=aw.ds"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="26px"></a>
-* <a href="https://www.blender.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="26px"></a>
-
+* XAMPP (to run Apache and MySQL)
+* PHP
+* Laravel
+* Postman (for testing)
+* Database configurations
+    * Create a database ```accredify``` on phpmyadmin
+    * Change database values in .env file in root directory of app
+        ```
+        DB_CONNECTION=mysql
+        DB_HOST=127.0.0.1    //according to your host
+        DB_PORT=3306         //according to your port
+        DB_DATABASE=accredify
+        DB_USERNAME=root     //your username for phpmyadmin
+        DB_PASSWORD=         //your password for phpmyadmin
+        ```
+    * Change ```$username``` and ```$password``` in App/Http/Controllers/VerifyController.php
 
 ## Deployment
-
-
-
-```
-php artisan migrate
-php artisan serve
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+1. Clone the github repository to your local machine using `https://github.com/faezlatiff/accredify.git`
+2. Open the ```CMD``` terminal and navigate to the root directory of the app
+3. Run the following commands on the terminal:
+    ```
+    php artisan migrate
+    php artisan serve
+    ```
+## Testing
+1. Open Postman and import ```Accredify.postman_collection.json``` file
+2. Test the API by sending requests from the collection
 
 <br/>
-<br/>
-
-## Installation
-
-### Clone
-
-Clone our github repository to your local machine using `https://github.com/faezlatiff/accredify.git`
-
-### Project setup
-```
-npm install
-```
-
-### Running Development Server
-```
-cd wad2-project
-
-# Start the development server
-
-npm run serve
-```
-
-### Test Account
-| **Username**       | **michael@gmail.com** |
-| -------------- | ------------------|
-| **Password**       | **12345678**          |
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
