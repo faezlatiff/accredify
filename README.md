@@ -14,6 +14,7 @@ A REST API with Laravel where an authenticated user sends a JSON and receives a 
 ## Prerequisites
 * XAMPP (to run Apache and MySQL)
 * PHP
+* Composer
 * Laravel
 * Postman (for testing)
 * Database configurations
@@ -34,6 +35,7 @@ A REST API with Laravel where an authenticated user sends a JSON and receives a 
 2. Open the ```CMD``` terminal and navigate to the root directory of the app
 3. Run the following commands on the terminal:
     ```
+    composer install
     php artisan migrate
     php artisan serve
     ```
