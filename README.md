@@ -40,7 +40,7 @@ A REST API with Laravel where an authenticated user sends a JSON and receives a 
     php artisan serve
     ```
 ## Testing
-1. Open Postman and import ```Accredify.postman_collection.json``` file
+1. Open Postman and import ```Accredify.postman_collection.json``` file found in root directory of the application
 2. Test the API by sending requests from the collection
 
 <br/>
